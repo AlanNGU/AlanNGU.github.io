@@ -16,7 +16,7 @@
 <meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-01-14T08:36:58.090Z">
-<meta property="article:modified_time" content="2020-01-14T09:43:12.408Z">
+<meta property="article:modified_time" content="2020-01-14T11:34:57.665Z">
 <meta property="article:author" content="Alan">
 <meta name="twitter:card" content="summary">
   
@@ -189,15 +189,32 @@
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 <h3 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h3><div id="flowchart-0" class="flow-chart"></div>
 
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: Start
+<h3 id="LoginValid"><a href="#LoginValid" class="headerlink" title="LoginValid"></a>LoginValid</h3><div id="flowchart-1" class="flow-chart"></div><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: Start
 e=>end
-op=>operation: My Operation
+op=>operation: checkNull
+op2=>operation: checkExist
 cond=>condition: Yes or No?
+cond2=>condition: Yes Or No!
 
-st->op->cond
+st->op->cond2->op2->cond
+cond2(yes)->op2
+cond2(no)->op
 cond(yes)->e
-cond(no)->op</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script>
+cond(no)->op</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script><textarea id="flowchart-1-code" style="display: none">st=>start: Start
+e=>end: End
+接收用户名和密码=>operation: 接收用户名和密码
+使用用户名查询数据库=>operation: 使用用户名查询数据库
+数据库中是否有数据=>condition: 数据库中是否有数据?
+走登录逻辑=>operation: 走登录逻辑
+走注册逻辑=>operation: 走注册逻辑
+密码是否正确=>condition: 密码是否正确?
+把用户名和密码写入数据库=>inputoutput: 把用户名和密码写入数据库 
+
+st->接收用户名和密码->使用用户名查询数据库->数据库中是否有数据
+数据库中是否有数据(yes)->走登录逻辑->密码是否正确
+数据库中是否有数据(no)->走注册逻辑->把用户名和密码写入数据库->e
+密码是否正确(yes)->e
+密码是否正确(no,down)->接收用户名和密码</textarea><textarea id="flowchart-1-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-1-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-1-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-1", options);</script>
       
 
       
@@ -575,5 +592,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
 
 </div>
   </div>
+  <script type="text/javascript" src="/js/love.js"></script>
 </body>
 </html>

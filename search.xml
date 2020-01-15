@@ -92,4 +92,95 @@ st->接收用户名和密码->使用用户名查询数据库->数据库中是否
 密码是否正确(yes)->e
 密码是否正确(no,down)->接收用户名和密码</textarea><textarea id="flowchart-1-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-1-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-1-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-1", options);</script>]]></content>
   </entry>
+  <entry>
+    <title>Markdown Basic Doc</title>
+    <url>/2019/07/15/markdownDoc/</url>
+    <content><![CDATA[<h3 id="Headers"><a href="#Headers" class="headerlink" title="Headers"></a>Headers</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#      一级标题</span><br><span class="line">##     二级标题</span><br><span class="line">###    三级标题</span><br><span class="line">####   四级标题</span><br><span class="line">#####  五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="Paragraph"><a href="#Paragraph" class="headerlink" title="Paragraph"></a>Paragraph</h3><h4 id="Font"><a href="#Font" class="headerlink" title="Font"></a>Font</h4><p>  <code>*斜体文本demo1*</code> <code>**粗体文本demo1**</code>  <code>***斜粗体文本demo1***</code>  </p>
+<p>  <code>_斜体文本demo2_</code>  <code>__粗体文本demo2__</code>  <code>___斜粗体文本demo2___</code>  </p>
+<p>$\Downarrow$$\Downarrow$显示效果$\Downarrow$$\Downarrow$</p>
+<ul>
+<li><em>斜体文字demo1</em>   <strong>粗体文本demo1</strong>   <strong><em>斜粗体文本demo1</em></strong></li>
+<li><em>斜体文本demo2</em>   <strong>粗体文本demo2</strong>   <strong><em>斜粗体文本demo2</em></strong></li>
+</ul>
+<h4 id="Dividing-Line"><a href="#Dividing-Line" class="headerlink" title="Dividing Line"></a>Dividing Line</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1、 ***</span><br><span class="line">2、 * * *</span><br><span class="line">3、 *****</span><br><span class="line">4、 - - -</span><br><span class="line">5、 ------------</span><br></pre></td></tr></table></figure>
+
+<h4 id="Strikethrough"><a href="#Strikethrough" class="headerlink" title="Strikethrough"></a>Strikethrough</h4><p>  在需要添加删除线的文字两端各添加两个波浪线<code>~~</code>  </p>
+<p><code>~~testText~~</code> $\Rightarrow$ <del>testText</del></p>
+<h4 id="Underline"><a href="#Underline" class="headerlink" title="Underline"></a>Underline</h4><p><code>&lt;u&gt;下划线文本&lt;/u&gt;</code> $\Rightarrow$ <u>下划线文本</u></p>
+<hr>
+<h3 id="Lists"><a href="#Lists" class="headerlink" title="Lists"></a>Lists</h3><h4 id="Unordered"><a href="#Unordered" class="headerlink" title="Unordered"></a>Unordered</h4><p>无序列表可以使用<code>*</code> <code>+</code> <code>-</code>作为标记 </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">* 第一条语句</span><br><span class="line">* 第二条语句</span><br><span class="line">* 第三条语句</span><br><span class="line"></span><br><span class="line">+ 第一条语句</span><br><span class="line">+ 第二条语句</span><br><span class="line">+ 第三条语句</span><br><span class="line"></span><br><span class="line">- 第一条语句</span><br><span class="line">- 第二条语句</span><br><span class="line">- 第三条语句</span><br></pre></td></tr></table></figure>
+
+<p>$\Downarrow$$\Downarrow$显示效果$\Downarrow$$\Downarrow$</p>
+<ul>
+<li>第一条语句</li>
+<li>第二条语句</li>
+<li>第三条语句  </li>
+</ul>
+<h4 id="Ordered"><a href="#Ordered" class="headerlink" title="Ordered"></a>Ordered</h4><p>有序列表使用数字并加上<code>.</code>来表示，注意点后有空格</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1.第一项</span><br><span class="line">2.第二项</span><br><span class="line">3.第三项</span><br></pre></td></tr></table></figure>
+
+
+<p>$\Downarrow$$\Downarrow$ 显示效果$\Downarrow$ $\Downarrow$   </p>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ol>
+<hr>
+<h3 id="Blockquotes"><a href="#Blockquotes" class="headerlink" title="Blockquotes"></a>Blockquotes</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;   java</span><br><span class="line">&gt;&gt;  java.lang</span><br><span class="line">&gt;&gt;&gt; java.lang.Thread</span><br></pre></td></tr></table></figure>
+<p>$\Downarrow$$\Downarrow$显示效果$\Downarrow$$\Downarrow$</p>
+<blockquote>
+<p>java</p>
+<blockquote>
+<p>java.lang</p>
+<blockquote>
+<p>java.lang.Thread</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<h3 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h3><h4 id="Inline-code"><a href="#Inline-code" class="headerlink" title="Inline code"></a>Inline code</h4><p>如果要突出显示段落上的一个函数或者代码片段可以使用反引号（`）把它包起来 </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#96;checkUserName&#96;函数</span><br></pre></td></tr></table></figure>
+<p>$\Downarrow$$\Downarrow$显示效果如下$\Downarrow$$\Downarrow$<br><code>checkUserName()</code>函数</p>
+<h4 id="Syntax-highlighting"><a href="#Syntax-highlighting" class="headerlink" title="Syntax highlighting"></a>Syntax highlighting</h4><p>代码区块使用四个空格或者一个Tab键<br>也可以使用```包裹一段代码，并指定一种语言.也可以不指定代码语言</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#96;&#96;&#96;javascript</span><br><span class="line">$(document).ready(function () &#123;</span><br><span class="line">    alert(&#39;RUNOOB&#39;);</span><br><span class="line">&#125;);</span><br><span class="line">&#96;&#96;&#96;</span><br></pre></td></tr></table></figure>
+<p>$\Downarrow$$\Downarrow$显示效果$\Downarrow$$\Downarrow$</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">$(<span class="built_in">document</span>).ready(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    alert(<span class="string">'Welcome!'</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h3><p>链接使用方法如下：  </p>
+<ul>
+<li><code>[google](http://www.google.com)</code> $\Rightarrow$ <a href="http://www.google.com" target="_blank" rel="noopener">google</a></li>
+<li><code>www.google.com</code> $\Rightarrow$ <a href="http://www.google.com" target="_blank" rel="noopener">www.google.com</a></li>
+</ul>
+<p>这个链接使用变量代替<code>[google][1]</code>，并在文末添加此链接的地址<code>[1]:http://www.google.com</code> $\Rightarrow$ <a href="http://www.google.com" target="_blank" rel="noopener">google</a></p>
+<hr>
+<h3 id="Image"><a href="#Image" class="headerlink" title="Image"></a>Image</h3><p>Markdown图片的基本语法格式如下：<br><code>![alt girl]（girl.png）</code> $\Rightarrow$ <img src="girl.png" alt="girl"><br>也可以像使用网址链接那样使用变量赋值<br><code>![alt girl][2]</code> $\Rightarrow$ <img src="girl.png" alt="alt girl"></p>
+<h3 id="Table"><a href="#Table" class="headerlink" title="Table"></a>Table</h3><p>Markdown制作表格使用<code>|</code>来分隔不同的单元格，使用<code>-</code>来分隔表头和其他行。<br>语法格式如下</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">| 表头 | 表头 | 表头 |</span><br><span class="line">| --- | ---  | --- |</span><br><span class="line">|单元格|单元格|单元格|</span><br><span class="line">|单元格|单元格|单元格|</span><br></pre></td></tr></table></figure>
+<p>$\Downarrow$$\Downarrow$显示效果$\Downarrow$$\Downarrow$<br>| 表头 | 表头 | 表头 |<br>| — | —  | — |<br>|单元格|单元格|单元格|<br>|单元格|单元格|单元格|</p>
+<p>我们可以设置表格的对齐方式：</p>
+<ul>
+<li><code>-:</code>  设置内容和标题栏居右对齐</li>
+<li><code>:-</code>  设置内容和标题栏居左对齐</li>
+<li><code>:-:</code> 设置内容和标题栏居中对齐</li>
+</ul>
+<p>$\Downarrow$$\Downarrow$显示效果$\Downarrow$$\Downarrow$<br>| 左对齐 | 居中对齐 | 右对齐 |<br>| :—- | :—-:  | —-: |<br>|1     |         2|      3|<br>|4      |5        |6      |</p>
+<hr>
+<h3 id="Reference-Documents"><a href="#Reference-Documents" class="headerlink" title="Reference Documents"></a>Reference Documents</h3><ul>
+<li><a href="https://www.runoob.com/markdown/md-tutorial.html" target="_blank" rel="noopener">https://www.runoob.com/markdown/md-tutorial.html</a></li>
+<li><a href="https://guides.github.com/features/mastering-markdown/" target="_blank" rel="noopener">https://guides.github.com/features/mastering-markdown/</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Markdown</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
 </search>

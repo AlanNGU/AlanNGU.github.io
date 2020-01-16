@@ -30,69 +30,6 @@
       </tags>
   </entry>
   <entry>
-    <title>testForHexo</title>
-    <url>/2020/01/14/my-test1/</url>
-    <content><![CDATA[<h3 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h3><p>内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假</p>
-<hr>
-<h3 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h3><p>内容内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假</p>
-<hr>
-<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p>内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假内容发生的拉法基了发的撒绿卡的撒解放军第三JFK了放假</p>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-        <category>Next</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>Next</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2020/01/14/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-<h3 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h3><div id="flowchart-0" class="flow-chart"></div>
-
-<h3 id="LoginValid"><a href="#LoginValid" class="headerlink" title="LoginValid"></a>LoginValid</h3><div id="flowchart-1" class="flow-chart"></div><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: Start
-e=>end
-op=>operation: checkNull
-op2=>operation: checkExist
-cond=>condition: Yes or No?
-cond2=>condition: Yes Or No!
-
-st->op->cond2->op2->cond
-cond2(yes)->op2
-cond2(no)->op
-cond(yes)->e
-cond(no)->op</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script><textarea id="flowchart-1-code" style="display: none">st=>start: Start
-e=>end: End
-接收用户名和密码=>operation: 接收用户名和密码
-使用用户名查询数据库=>operation: 使用用户名查询数据库
-数据库中是否有数据=>condition: 数据库中是否有数据?
-走登录逻辑=>operation: 走登录逻辑
-走注册逻辑=>operation: 走注册逻辑
-密码是否正确=>condition: 密码是否正确?
-把用户名和密码写入数据库=>inputoutput: 把用户名和密码写入数据库 
-
-st->接收用户名和密码->使用用户名查询数据库->数据库中是否有数据
-数据库中是否有数据(yes)->走登录逻辑->密码是否正确
-数据库中是否有数据(no)->走注册逻辑->把用户名和密码写入数据库->e
-密码是否正确(yes)->e
-密码是否正确(no,down)->接收用户名和密码</textarea><textarea id="flowchart-1-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-1-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-1-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-1", options);</script>]]></content>
-  </entry>
-  <entry>
     <title>Lombok Document</title>
     <url>/2019/06/16/LombokDocument/</url>
     <content><![CDATA[<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul>
